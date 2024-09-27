@@ -3,7 +3,7 @@ import streamlit as st  # Import Streamlit for web app interface
 from main import MathPhysicsRAG, setup_environment_variables  # Import necessary components from main.py
 import json
 # from dotenv import load_dotenv
-from mathretrieve import MathPhysicsQuestionDatabase
+# from mathretrieve import MathPhysicsQuestionDatabase
 
 def main():
     """Main function to run the Streamlit application."""
