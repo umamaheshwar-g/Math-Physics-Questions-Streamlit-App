@@ -65,7 +65,7 @@ SCRIPT_PROMPT = """Create a Python function that solves the following question:
 
 The function should:
 1. Take the numerical values from the question as arguments, arguments names should match the question
-2. Return a dictionary with 'value' and 'units' as keys
+2. Return a dictionary with 'value' and 'units'(note: if relevant) as keys
 3. Be general enough to solve similar questions with different numerical inputs
 
 Function:"""

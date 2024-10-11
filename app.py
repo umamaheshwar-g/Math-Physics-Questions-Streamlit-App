@@ -39,7 +39,7 @@ def question_generator(rag_system):
     # User inputs for grade level and topic
     subject = st.selectbox("Subject:", ["Mathematics", "Physics", "Chemistry", "Python"])
     grade_level = st.selectbox("Select Grade Level:", ["Elementary", "Middle School", "High School", "Bachelors", "Masters"])  # Dropdown for grade level
-    topic = st.text_input("Enter Topic:", "Physics - Kinematics")  # Text input for topic
+    topic = st.text_input("Enter Topic:", "Python - Monkey Patching Example")  # Text input for topic
     toughness_level = st.selectbox("Select Toughness:", ["Easy", "Moderate", "Tough", "Very Tough"])
     num_variations = st.number_input("Number of Answer Variations:", min_value=1, max_value=10, value=3)  # Input for number of variations
 
